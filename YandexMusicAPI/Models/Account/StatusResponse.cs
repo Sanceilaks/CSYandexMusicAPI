@@ -16,4 +16,5 @@ public class StatusResponse
     public bool? PretrialActive { get; set; }
     public Plus? Plus { get; set; }
     public string? DefaultEmail { get; set; }
+
 }
