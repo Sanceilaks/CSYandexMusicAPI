@@ -8,7 +8,7 @@ public class InvocationInfo
     /// Execution duration in milliseconds 
     /// </summary>
     [JsonPropertyName("exec-duration-millis")]
-    public int? ExecDuration { get; set; }
+    public string? ExecDuration { get; set; }
 
     /// <summary>
     /// Server host name
